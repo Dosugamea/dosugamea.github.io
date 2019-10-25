@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>色選択 | ピカピカ</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<div class="row mt-3">
+	<h4 class="mx-auto">色変更</h4>
+</div>
+<div class="row">
+	<h5 class="mx-auto">色をタップで変更できます</h5>
+</div>
+  <table class="table table-bordered text-center">
+	<tbody>
+		<tr>
+			<th scope="row">メイン 文字色</th>
+			<td><div class="pickr"></div></td>
+		</tr>
+		<tr>
+			<th scope="row">メイン 背景色</th>
+			<td><div class="pickr2"></div></td>
+		</tr>
+		<tr>
+			<th scope="row">ボタン 文字色</th>
+			<td><div class="pickr3"></div></td>
+		</tr>
+		<tr>
+			<th scope="row">ボタン 背景色</th>
+			<td><div class="pickr4"></div></td>
+		</tr>
+	</tbody>
+　　</table>
+	<div class="row mx-auto">
+		<button class="btn btn-outline-success btn-block" type="button" onclick="sendToTalk()">適用</button>
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+<script src="picker_func.js"></script>
+<script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+<script src="liff_func.js"></script>
+</body>
+</html>
