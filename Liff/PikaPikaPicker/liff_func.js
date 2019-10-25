@@ -1,6 +1,6 @@
 window.onload = function() {
 	liff.init({
-		liffId: "adsdsads"
+		liffId: "1653376666-pjd35V20"
 	}).catch((err) => {
 		alert(err);
 	});
